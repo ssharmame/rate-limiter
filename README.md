@@ -1,3 +1,13 @@
+# Rate Limiter API
+
+## Build
+
+docker build -t rate-limiter .
+
+## Run
+
+docker run -p 3000:3000 rate-limiter
+
 ## Test
 
 Register:
@@ -6,3 +16,4 @@ sunilsharma@Sunils-MacBook-Air Assignment-RateLimiter % curl -X POST http://loca
 
 Allow:
 curl -X http://localhost:3000/allow/c1
+{"allowed":true}%
