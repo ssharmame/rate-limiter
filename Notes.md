@@ -3,7 +3,6 @@ Used Node.js and Express Js
 It is a single threaded event loop so map operations are safe per request cycle but if you are using java, .NET or multi-threaded evn you should use
 concurrenthasmap, synchronized blocks
 Or atomic operations
-
 In distribute system:
 I have used in memory but in distributed use redis instead
 
